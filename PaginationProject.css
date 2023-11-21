@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading h1 {
+  color: white;
+}
+
+.outer_Div {
+  min-height: 500px;
+  width: 70%;
+  margin: 2rem auto;
+  border: 5px solid green;
+  background-color: #ccc;
+}
+
+.bar {
+  height: 500px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  margin: 1.35rem 2rem;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid black;
+  transition: all 1s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+.myButton {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.myButton button {
+  height: 50px;
+  width: 100px;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  background-color: aqua;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.myButton button:hover {
+  box-shadow: 2px 2px 2px 2px red;
+}
+
+@media (max-width: 450px) {
+  img {
+    height: 200px;
+    width: 200px;
+    margin: 1.25rem 2.35rem;
+    cursor: pointer;
+    display: inline-block;
+    border: 2px solid black;
+    transition: all 1s ease-in-out;
+  }
+}
